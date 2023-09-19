@@ -295,6 +295,7 @@ TSWLatexianTemp*
 data/*
 Spitzbergen/data/*
 GVN/data/*
+*.csv
 
 
 # REVTeX puts footnotes in the bibliography by default, unless the nofootinbib
