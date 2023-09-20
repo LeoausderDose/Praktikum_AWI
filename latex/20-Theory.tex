@@ -1,7 +1,17 @@
 %Matteo Kumar - Leonard Schatt
 % Fortgeschrittenes Physikalisches Praktikum
  
-\chapter{Theory}
+\chapter{Data and methods}
 \label{cha:theory}
 
+% \section{Data}
+The diurnal temperature range (DTR) data, analyzed at a multi-regional scale in the following section, is derived from the \textit{CRU TS v4.07} dataset \cite{Harris.2020}. This dataset offers a spatial resolution of $\SI{0.5}{\degree} \times \SI{0.5}{\degree}$ and a monthly temporal resolution dating back to 1901.
+The diurnal temperature range is defined as the difference
+\begin{equation}
+    DTR = T_{\mathrm{max}} - T_{\mathrm{min}}
+\end{equation}
+of the $T_{\mathrm{max}}$ and $T_{\mathrm{min}}$ representing the maximum and minimum temperatures of the day. In spatial averaging we weight by area.
+
+The local data for the Arctic were taken from 'AWIPEV,' the station for continuous meteorological observations in Ny-Ålesund \cite{Maturilli.2020}. For Antarctica, we use the time series data from the 'Georg von Neumayer' station \cite{KonigLanglo.2017}. When multiple datasets for the same quantity exist at the same time, the 
+quantities are averaged. 
 
