@@ -5,13 +5,33 @@
 \label{cha:theory}
 
 % \section{Data}
-The diurnal temperature range (DTR) data, analyzed at a multi-regional scale in the following section, is derived from the \textit{CRU TS v4.07} dataset \cite{Harris.2020}. This dataset offers a spatial resolution of $\SI{0.5}{\degree} \times \SI{0.5}{\degree}$ and a monthly temporal resolution dating back to 1901.
-The diurnal temperature range is defined as the difference
+% The diurnal temperature range (DTR) data, analyzed at a multi-regional scale in the following section, is derived from the \textit{CRU TS v4.07} dataset \cite{Harris.2020}. This dataset offers a spatial resolution of $\SI{0.5}{\degree} \times \SI{0.5}{\degree}$ and a monthly temporal resolution dating back to 1901.
+% The diurnal temperature range is defined as the difference
+% \begin{equation}
+%     DTR = T_{\mathrm{max}} - T_{\mathrm{min}}
+% \end{equation}
+% of the $T_{\mathrm{max}}$ and $T_{\mathrm{min}}$ representing the maximum and minimum temperatures of the day. In spatial averaging we weight by area.
+
+% The local data for the Arctic were taken from 'AWIPEV,' the station for continuous meteorological observations in Ny-Ålesund \cite{Maturilli.2020}. For Antarctica, we use the time series data from the 'Georg von Neumayer' station \cite{KonigLanglo.2017}. When multiple datasets for the same quantity exist at the same time, the 
+% quantities are averaged. 
+% The diurnal temperature range (DTR) data, analyzed at a multi-regional scale in the following section, is derived from the \textit{CRU TS v4.07} dataset (Harris, 2020). This dataset offers a spatial resolution of $\SI{0.5}{\degree} \times \SI{0.5}{\degree}$ and a monthly temporal resolution dating back to 1901.
+
+% The diurnal temperature range is defined as the difference:
+% \begin{equation}
+% DTR = T_{\mathrm{max}} - T_{\mathrm{min}}
+% \end{equation}
+% where $T_{\mathrm{max}}$ and $T_{\mathrm{min}}$ represent the maximum and minimum temperatures of the day, respectively. In spatial averaging, we weight by area.
+
+% The local data for the Arctic were taken from 'AWIPEV,' the station for continuous meteorological observations in Ny-Ålesund (Maturilli, 2020). For Antarctica, we use the time series data from the 'Georg von Neumayer' station (König-Langlo, 2017). When multiple datasets for the same quantity exist at the same time, the quantities are averaged.
+
+
+We analyze the diurnal temperature range data at a multi-regional scale, derived from the \textit{CRU TS v4.07} dataset  \cite{Harris.2020}. The dataset offers a spatial resolution of $\SI{0.5}{\degree} \times \SI{0.5}{\degree}$. Additionally, it provides monthly temporal resolution, offering data points for each month dating back to the year 1901.
+
+We define the diurnal temperature range as the difference: 
 \begin{equation}
     DTR = T_{\mathrm{max}} - T_{\mathrm{min}}
 \end{equation}
-of the $T_{\mathrm{max}}$ and $T_{\mathrm{min}}$ representing the maximum and minimum temperatures of the day. In spatial averaging we weight by area.
+where $T_{\mathrm{max}}$ and $T_{\mathrm{min}}$ respectively represent the maximum and minimum temperatures of the day. The multi-regional data is spatially averaged without taking parameters such as the number of independent stations into account.
 
-The local data for the Arctic were taken from 'AWIPEV,' the station for continuous meteorological observations in Ny-Ålesund \cite{Maturilli.2020}. For Antarctica, we use the time series data from the 'Georg von Neumayer' station \cite{KonigLanglo.2017}. When multiple datasets for the same quantity exist at the same time, the 
-quantities are averaged. 
+We obtained the local data for the Arctic from the meteorological station \textit{AWIPEV} at Ny-Ålesund on the island of Spitzbergen \cite{Maturilli.2020}. For Antarctica, we utilize the time series data from the \textit{Georg von Neumayer station III} \cite{KonigLanglo.2017}. When multiple datasets from different devices are available for the same time, we calculate the average of those measurements.
 
