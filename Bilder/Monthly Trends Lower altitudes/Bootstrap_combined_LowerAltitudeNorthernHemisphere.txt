@@ -1,0 +1,4 @@
+Bootstrap Confidence Interval for Coefficient: [-0.00187392  0.00183517]
+Bootstrapped p-value: 0.1466
+
+for month April to september
