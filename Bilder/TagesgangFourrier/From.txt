@@ -1,1 +1,1 @@
-From data_import_SpitzbergenAverages copy.ipynb
+Spitzbergen_Tagesgang_FFT.ipynb
